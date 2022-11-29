@@ -26,14 +26,25 @@ public class TopKontrol : MonoBehaviour
         {
             zamanSayaci -= Time.deltaTime; //zamanSayaci=zamanSayaci - Time.deltaTime;
             zaman.text = (int)zamanSayaci + "";
+            if (Input.GetKeyDown("escape"))
+            {
+                oyunDevam = false;
+
+            }
         }
-        else if(!oyunTamam)
+        
+        /*else if(!oyunTamam)
         {
             durum.text = "Oyun Tamamlanamadý!";
+
             btn.gameObject.SetActive(true);
-        }
+
+        } */
         if (zamanSayaci < 0)
+        {
             oyunDevam = false;
+        }
+
     }
 
     void FixedUpdate()
@@ -44,6 +55,7 @@ public class TopKontrol : MonoBehaviour
             float dikey = Input.GetAxis("Vertical");
             Vector3 kuvvet = new Vector3(-dikey, 0, yatay);
             rg.AddForce(kuvvet * Hiz);
+    
         }
         else
         {
@@ -67,8 +79,12 @@ public class TopKontrol : MonoBehaviour
             canSayaci -= 1;
             can.text = canSayaci+"";
             if (canSayaci == 0)
+            {
                 oyunDevam = false;
-           
+                durum.text = "Oyun Tamamlanamadý!";
+
+                btn.gameObject.SetActive(true);
+            }
         }
     }
 }
