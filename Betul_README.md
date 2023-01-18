@@ -14,6 +14,16 @@
 --> ESC butonuna basılarak durdurma menüsünün açılmasını ve içerisine "devam et", "yeniden başlat" butonlarının yerleştirilmesi ve aktive edilmesini sağladım. Ayrıca yeniden başlat butonunu oluşturdum.
 -->DurdurmaMenu.cs ve Buton.cs
 
+# Final Proje Kısmında Geliştirdiğim Kısımlar
+--> Ana Menü ekranını oluşturdum. Ana Menüdeki buton atamalarını yaptım
+--> Durdurma Menüsüne, ana menüye dönmek için gerekli tuşu atadım.
+--> Oyun içi arkaplan müziği ekledim. Tüm ekranlarda dolaşmasını sağladım.
+
 # Oyunda Ekip Arkadaşımın Görevi
 --> Ekip arkadşaım oyunun oluşturulmasını ve kullanıcının kontrol ediceği yapının hareketlerini oluşturdu.
 --> TopKontrol.cs
+
+# Final Proje Kısmında Ekip Arkadaşımın Geliştirdiği Kısımlar
+--> İkinci oyun sahnesini ve sahne içi kontrolleri oluşturdu.
+-->Altın animasyonu ve kazanılan oyun sonunda ortaya çıkan animasyonu oluşturdu.
+--> Oyuncu içi ses oluşturdu.
