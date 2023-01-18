@@ -18,6 +18,7 @@ public class Buton : MonoBehaviour
     }
     public void YenidenBasla()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(1);
     }
+
 }

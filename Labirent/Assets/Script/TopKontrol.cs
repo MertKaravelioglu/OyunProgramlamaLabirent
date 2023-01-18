@@ -17,6 +17,7 @@ public class TopKontrol : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         can.text = canSayaci + "";
         rg = GetComponent<Rigidbody>();
     }
@@ -41,10 +42,13 @@ public class TopKontrol : MonoBehaviour
 
             btn.gameObject.SetActive(true);
 
-        } */
+        } */ 
         if (zamanSayaci < 0)
         {
             oyunDevam = false;
+            durum.text = "Oyun Tamamlanamadý!";
+
+            btn.gameObject.SetActive(true);
         }
 
     }

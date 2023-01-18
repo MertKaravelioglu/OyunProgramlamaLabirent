@@ -25,10 +25,14 @@ public class DurdurmaMenu : MonoBehaviour
         if(deger == 0)
         {
             durdurmaPanel.SetActive(false);
+            Time.timeScale = 1f;
         }
         else if (deger == -1)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene(1);
+        }
+        else if(deger == 1){
+            SceneManager.LoadScene(0);
         }
     }
 }
