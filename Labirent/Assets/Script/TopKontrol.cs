@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class TopKontrol : MonoBehaviour
 {
+    public GameObject win;
+    public AudioClip altin;
     public UnityEngine.UI.Button btn;
     public UnityEngine.UI.Text zaman, can, durum;
     private Rigidbody rg;
@@ -71,10 +73,12 @@ public class TopKontrol : MonoBehaviour
         {
             //print("Oyun Tamamlandý!");
             oyunTamam = true;
+            Instantiate(win, transform.position, transform.rotation);
             durum.text = "Oyun Tamamlandý!";
             btn.gameObject.SetActive(true);
+            SceneManager.LoadScene("sahne2");
         }
-        else if(!objIsmi.Equals("LabirentZemin")&& !objIsmi.Equals("Zemin"))
+        else if (!objIsmi.Equals("LabirentZemin") && !objIsmi.Equals("Zemin") && !objIsmi.Equals("altin") && !objIsmi.Equals("altin (1)") && !objIsmi.Equals("altin (2)"))
         {
             canSayaci -= 1;
             can.text = canSayaci+"";
@@ -85,6 +89,11 @@ public class TopKontrol : MonoBehaviour
 
                 btn.gameObject.SetActive(true);
             }
+        }
+        if (collision.gameObject.tag.Equals("altin"))
+        {
+            AudioSource.PlayClipAtPoint(altin, transform.position);
+            Destroy(collision.gameObject);
         }
     }
 }

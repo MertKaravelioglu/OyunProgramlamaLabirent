@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: e2844c7747877c946acb942aa767fd6b
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/OptionsMenu.unity
     guid: 625215c645b7fa1459d467a2ddf589ab
   - enabled: 1
-    path: Assets/Scenes/BackgroundMusic.unity
-    guid: f84427fd82b512c47956f5258b988d9d
+    path: Assets/Scenes/SampleScene 1.unity
+    guid: 154bb670d0e83b347a5c4d3fa4a2dd2d
+  - enabled: 1
+    path: Assets/Scenes/sahne2.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
