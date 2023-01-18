@@ -21,7 +21,7 @@ https://mertkave.itch.io/oyunproglabirentmertbetul
 * Oyun içi arkaplan müziği ekledim. Tüm ekranlarda dolaşmasını sağladım.
 
 # Mertin Oyunda Görevi
-* Ekip arkadşaım oyunun oluşturulmasını ve kullanıcının kontrol ediceği yapının hareketlerini oluşturdu. 
+* Ekip arkadaşım oyunun oluşturulmasını ve kullanıcının kontrol ediceği yapının hareketlerini oluşturdu. 
 * TopKontrol.cs
 
 # Mertin Final Proje Kısmında Geliştirdiği Kısımlar
