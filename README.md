@@ -6,7 +6,7 @@ https://mertkave.itch.io/oyunproglabirentmertbetul
 * Kullanıcı yön tuşları ile kontrol etitği küre yapısını duvar engellerine çarptırmadan ve 3 can hakkını bitirmeden hedef noktaya ulaştırır.
 
 # Oyun İçi Görsel
-![esc](https://user-images.githubusercontent.com/56195071/204586249-d1e81a97-3b1e-40ce-a1c4-81a4d5ddf174.png)
+![image](https://user-images.githubusercontent.com/56157258/213279376-88af8b29-6439-4f0a-b0af-39442f348484.png)
 
 # Tuşlar
 * Yön tuşları
